@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @StateObject var messagesManager = MessagesManager() 
+    @StateObject var messagesManager = MessagesManager()
     
     var body: some View {
         VStack {
@@ -26,6 +26,7 @@ struct ContentView: View {
         .background(Color("Peach"))
         
         MessageField()
+            .environmentObject(messagesManager)
     }
 }
 
