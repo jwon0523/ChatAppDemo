@@ -14,6 +14,7 @@
 		0E53A6E02BA49546002C37C5 /* TitleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E53A6DF2BA49546002C37C5 /* TitleRow.swift */; };
 		0E53A6E32BA4983F002C37C5 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E53A6E22BA4983F002C37C5 /* Message.swift */; };
 		0E53A6E52BA4993A002C37C5 /* MessageBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E53A6E42BA4993A002C37C5 /* MessageBubble.swift */; };
+		0E53A6E72BA49F23002C37C5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E53A6E62BA49F23002C37C5 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		0E53A6DF2BA49546002C37C5 /* TitleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleRow.swift; sourceTree = "<group>"; };
 		0E53A6E22BA4983F002C37C5 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		0E53A6E42BA4993A002C37C5 /* MessageBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBubble.swift; sourceTree = "<group>"; };
+		0E53A6E62BA49F23002C37C5 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				0E53A6D22BA4943C002C37C5 /* ContentView.swift */,
 				0E53A6D42BA4943E002C37C5 /* Assets.xcassets */,
 				0E53A6D62BA4943E002C37C5 /* Preview Content */,
+				0E53A6E62BA49F23002C37C5 /* Extensions.swift */,
 			);
 			path = ChatAppDemo;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E53A6D32BA4943C002C37C5 /* ContentView.swift in Sources */,
+				0E53A6E72BA49F23002C37C5 /* Extensions.swift in Sources */,
 				0E53A6E32BA4983F002C37C5 /* Message.swift in Sources */,
 				0E53A6E52BA4993A002C37C5 /* MessageBubble.swift in Sources */,
 				0E53A6D12BA4943C002C37C5 /* ChatAppDemoApp.swift in Sources */,
